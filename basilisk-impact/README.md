@@ -4,6 +4,16 @@ Same model. Same prompt. Same tools. Same git commit of this repo. Two configura
 
 ---
 
+## Executive summary
+
+Same `claude-opus-4-7` model, same prompt, same Read/Grep/Glob/Bash tools, same git commit of this repo — Claude run twice, once with Basilisk in context and once without.
+
+**With Basilisk, Claude surfaced a concrete refactor lever in 76 seconds: 60+ method bodies are byte-identical duplicates across 34 strategy files, suggesting a `BaseStrategy` mixin extraction. Without Basilisk, given identical tools, Claude did not surface this finding.**
+
+The cluster-duplication pattern is the kind of cross-file architectural debt a senior engineer typically surfaces in week 2 or 3 of onboarding. Here it appears as the opening of a first-response onboarding brief.
+
+---
+
 ## The headline
 
 In its first onboarding response, Claude **with Basilisk** produced this concrete architectural finding:
