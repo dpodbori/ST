@@ -16,7 +16,10 @@ a scar from a real codebase's evolution, or something intentional. We simply loo
 and these are the places that gave a careful, structurally-grounded reviewer pause. If an item is
 intentional or already known, ignore it; if any are news, we're glad the review surfaced them.
 
-Line numbers are against the current `HEAD`.
+**Provenance.** Reviewed 2026-06-17 (UTC) against commit `6185549`
+(`618554960262735211d8c44db86f5feefd020c74`) of `github.com/dpodbori/ST`, using Basilisk + an LLM
+(`claude-sonnet-4-6`). Line numbers are **as of that commit**; this is a point-in-time review and the
+code may have evolved since — re-check the references against the current source before acting.
 
 ---
 
